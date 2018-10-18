@@ -1,6 +1,6 @@
 import jaci.openrio.gradle.GradleRIOPlugin
 import jaci.openrio.gradle.frc.FRCJavaArtifact
-import jaci.openrio.gradle.frc.RoboRIO 
+import jaci.openrio.gradle.frc.RoboRIO
 
 plugins {
     id "org.jetbrains.kotlin.jvm" version "1.2.50"
