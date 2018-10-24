@@ -2,10 +2,12 @@ package frc.team4069.robot
 
 import com.ctre.phoenix.motorcontrol.can.TalonSRX
 import edu.wpi.first.wpilibj.TimedRobot
+import edu.wpi.first.wpilibj.XboxController
 
 class Robot : TimedRobot() {
     // The motor controller we're going to be using
     lateinit var talon: TalonSRX
+    val controller = XboxController(1)
 
     // Called once when user code is started
     override fun robotInit() {

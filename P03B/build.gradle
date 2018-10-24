@@ -1,5 +1,6 @@
 import jaci.openrio.gradle.GradleRIOPlugin
 import jaci.openrio.gradle.frc.RoboRIO
+import jaci.openrio.gradle.frc.FRCJavaArtifact
 
 plugins {
     id "org.jetbrains.kotlin.jvm" version "1.2.50"
@@ -9,7 +10,7 @@ plugins {
 }
 
 def TEAM = 4069
-def ROBOT_CLASS = "frc.team4069.frc.team4069.robot.Robot"
+def ROBOT_CLASS = "frc.team4069.robot.Robot"
 
 // Define my targets (RoboRIO) and artifacts (deployable files)
 // This is added by GradleRIO'subsystems backing project EmbeddedTools.
