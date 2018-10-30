@@ -20,6 +20,5 @@ object DriveSubsystem : Subsystem() {
 
     fun drive(forwardSpeed: Double, turn: Double) {
         // Implement this function. Remember how differential drive works
-        drive.arcadeDrive(forwardSpeed, turn)
     }
 }
